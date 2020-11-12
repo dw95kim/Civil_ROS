@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="fcc_serial" name="server_udp_node_uav1" type="server_udp_node_uav1"/>
+	<node pkg="fcc_serial" name="server_udp_node_uav2" type="server_udp_node_uav2"/>
+</launch>
